@@ -6,7 +6,9 @@ Version control is an essential skill for developers to master, and Git is by fa
 
 Plus, you'll learn how to work with the popular GitHub website to explore existing projects, clone them to your local hard drive, and use them as templates for your new projects.
 
-# Headings
+# Markdown
+## Headings
+
 # Heading 1
 ## Heading 2
 ### Heading 3
@@ -14,7 +16,7 @@ Plus, you'll learn how to work with the popular GitHub website to explore existi
 ##### Heading 5
 ###### Heading 6
 
-# Special Styles
+## Special Styles
 **bold**
 __BOLD__
 *italic*
@@ -25,14 +27,14 @@ _italic_
 *** Asterisks
 ___ Underscores
 
-# Lists
+## Lists
 - Hyphens
 * Asterisks
 + Plus sign
 1. First ordered list item
    * Unordered sub-list
 
-# Links
+## Links
 https://www.github.com
 [website](https://www.github.com "GitHub")
 
@@ -44,7 +46,7 @@ https://www.github.com
 
 [1]: https://www.github.com
 
-# Images
+## Images
 ![Tomolor](https://pixelprowess.com/i/stargazers/tomolor.png)
 
 ![Tomolor]
@@ -52,8 +54,45 @@ https://www.github.com
 [Tomolor]: https://pixelprowess.com/i/stargazers/tomolor.png
 [![Tomolor](https://pixelprowess.com/i/stargazers/tomolor.png)](https://raybo.org)
 
-# Code
+## Code
 
 (`)
 (```)
+
+# Github Flavored Markdown (GFM)
+
+## Footnotes
+this is a footnote [^1]. Another footnote[^2].
+
+[^1]: My reference
+[^2]: Another footnote
+
+## Tables
+
+| Left | Center | Right |
+|------| :----: |----:  |
+| one  |  two   | three |
+|four  | five   | six   |
+
+
+## Task List
+- [ ] first task
+- [x] second task
+
+## Collapsed Details
+<details>
+  <summary>collapsed</summary>
+  # Header
+  This is the copy for the collapsed text.
+</details>
+  
+## Mermaid graphs
+```mermaid
+  graph TD;
+    A-->B;
+    A-->C;
+```
+
+  
+
 
